@@ -7,7 +7,7 @@
 .form{
   display: flex;
   flex-direction: column;
-  width: 800px;
+  width: 100%;
 }
 .label{
   padding-bottom: 10px;
@@ -46,6 +46,7 @@
 .tweet-article{
   border: 5px solid black;
   padding: 20px;
+  margin-bottom: 40px;
 }
 .tweet-article:hover .tweet-name{
 visibility: visible;
@@ -110,8 +111,16 @@ i{
 #danger-icon{
   color:red;
   font-size: 30px;
-  
 }
 .error-text{
 font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  .tweet-article{
+    width:100%;
+  }
+  #tweets-container{
+    margin-right: 0px;
+  }
 }
