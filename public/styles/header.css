@@ -1,0 +1,21 @@
+/* the header that is in the body. body is the parent and header is child */
+body > header{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c25b00;
+  background-image: url("https://www.transparenttextures.com/patterns/elegant-grid.png");
+  padding-top: 1em;
+  margin-top: 121px;
+}
+h2{
+  margin-top: 0;
+}
+/* class for lighter font used in h2*/
+.light{
+  font-weight: lighter;
+  font-family: 'Source Sans Pro', sans-serif;
+}
