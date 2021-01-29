@@ -37,7 +37,7 @@ This app uses HTML, CSS, JS, jQuery and AJAX on the front-end; and Node, Express
 
 - Responsive Design
   * For devices such as tablets and laptops (768px and above), your profile will appear on the left, and tweets on the right.
-  * For smaller devices (below 767px), sections will be stacked on top of each other, profile being on top and tweets bottom.
+  * For smaller devices (below 767px), sections will be stacked on top of each other, profile being on top and tweets on the bottom.
 
 - Features
   * Tweet validation prevents you from sending empty tweets, or those with over 140 characters.
