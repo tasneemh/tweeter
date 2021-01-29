@@ -1,20 +1,23 @@
+/* for section containing error message & new tweet form */
 .new-tweet{
   display:flex;
   flex-direction: column;
   align-items: center;
 }
-
+/* for new tweet form */
 .form{
   display: flex;
   flex-direction: column;
   width: 100%;
 }
+/* for label containing What are you humming about? */
 .label{
   padding-bottom: 10px;
   margin-bottom: 10px;
   font-size: 30px;
   font-weight: bold;
 }
+/* for div containing tweet button and counter output  */
 .btn-counter{
   display: flex;
   flex-direction: row;
@@ -23,37 +26,43 @@
   margin-bottom: 50px;
   font-family: 'Bungee', cursive;
 }
+/* for tweet button */
 .button{
   background-color: #4056A1;
   color: #ffffff; 
   border: none;
 }
+/* for counter output  */
 .counter{
   padding-right:10px;
 }
+/* for text area */
 .textarea{
- border-bottom: 5px solid black;
- font-size: 15px;
- border-top: none;
- border-right: none;
- border-left: none;
- background-color: #f4f1ec;
+  border-bottom: 5px solid black;
+  font-size: 15px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background-color: #f4f1ec;
 }
+/* for displaying counter value below 0 in red */
 .red-color{
   color: red;
 }
-
+/* for each tweet article which contains 1 tweet*/
 .tweet-article{
   border: 5px solid black;
   padding: 20px;
   margin-bottom: 40px;
 }
+/* for visibility of tweet-name while hovering */
 .tweet-article:hover .tweet-name{
-visibility: visible;
+  visibility: visible;
 }
 .tweet-article:hover{
   box-shadow: 10px 10px darkgray;
 } 
+/* for header of tweet containing image, tweet-name & name*/
 .tweet-header{
   background-color: #f4f1ec;
   display: flex;
@@ -61,43 +70,56 @@ visibility: visible;
   justify-content: space-between;
   align-items: center;
 }
+/* for footer of tweet containing no. of days ago & tweet-icons */
 .tweet-footer{
   display:flex;
   justify-content: space-between;
   font-size: 20px;
 }
+/* for the image in tweet-header */
 .tweet-header > img{
   margin: 15px;
 }
+/* for name in tweet-header such as Newton */
 .name{
   padding: 10px;
   margin: 10px;
 }
+/* for tweet-name such as @SirIsaac */
 .tweet-name{
   padding: 10px;
   margin:10px;
   visibility: hidden;
   color: darkgray;
 }
-
+/* for text inside tweet such as If i have ever seen further it is by standing...*/
 .text{
   padding-bottom: 20px;
   border-bottom: 5px solid black;
 }
+/* for tweet icons in tweet-footer */
 .tweet-icons{
   display: flex;
   justify-content: space-evenly;
   width: 150px;
+  visibility: hidden;
 }
+/* for visibility of tweet-icons */
+.tweet-article:hover .tweet-icons{
+  visibility: visible;
+}
+/* for div in tweet-header */
 .tweet-header > div {
   display: flex;
   flex-direction: row;
   padding: 15px;
 }
+/* for the color of tweet-icons */
 i{
   color: blue;
   font-size: 20px;
 }
+/* for error message  */
  .errorMsg{
   color: red;
   border: 5px solid red;
@@ -108,12 +130,14 @@ i{
   padding: 10px;
    
 }
+/* for icons inside the error message */
 #danger-icon{
   color:red;
   font-size: 30px;
 }
+/* for text inside the error message */
 .error-text{
-font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 @media only screen and (min-width: 768px) {

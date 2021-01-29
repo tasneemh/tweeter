@@ -3,6 +3,7 @@
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
  */
+ /* for overall html */
 html {
   box-sizing: border-box;
 }
@@ -21,7 +22,6 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   position: relative;
 }
 main{
@@ -29,10 +29,7 @@ main{
   display: flex;
   flex-direction: column;
   padding-bottom: 20px;
-  /* flex-grow: 3; */
 }
-
-
 
  /* Additional CSS can be defined below or in other CSS files, as per instructions */
  
@@ -41,6 +38,7 @@ main{
     margin: 5%;
     flex-grow: 2;
   }
+  /* for div containing main & header */
   #page-container{
     display: flex;
     flex-direction: row;
