@@ -33,12 +33,11 @@ This app uses HTML, CSS, JS, jQuery and AJAX on the front-end; and Node, Express
   * The tweets will show new to old. Scroll through and enjoy.
 
 - Write Tweets
-  
   * Simply write your thoughts in tweet section and click tweet. You will see it appear on the timeline.
 
 - Responsive Design
-  * For desktops and laptops (over 1024px), your profile will appear on the left, and tweets on the right.
-  * For smaller devices like tablets, sections will be stacked on top of each other, profile being on top and tweets bottom.
+  * For devices such as tablets and laptops (768px and above), your profile will appear on the left, and tweets on the right.
+  * For smaller devices (below 767px), sections will be stacked on top of each other, profile being on top and tweets bottom.
 
 - Features
   * Tweet validation prevents you from sending empty tweets, or those with over 140 characters.
