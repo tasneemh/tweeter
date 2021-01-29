@@ -2,6 +2,13 @@
 
 Tweeter is a simple, single-page AJAX based Twitter clone.
 
+## Screenshots
+!["Screenshot of tweet compose box"](https://github.com/tasneemh/tweeter/blob/master/images/desktop-img.png?raw=true)
+!["Screenshot of tweets"](https://github.com/tasneemh/tweeter/blob/master/images/tweets-img.png?raw=true)
+!["Screenshot of tweet compose box on tablet"](https://github.com/tasneemh/tweeter/blob/master/images/tablet-img.png?raw=true)
+!["Screenshot of error message1"](https://github.com/tasneemh/tweeter/blob/master/images/errormsg1-img.png?raw=true)
+!["Screenshot of error message2"](https://github.com/tasneemh/tweeter/blob/master/images/errormsg2-img.png?raw=true)
+
 ## Dependencies
 
 - Express
